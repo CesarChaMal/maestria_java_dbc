@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Proyecto</display-name>
+  <servlet>
+    <description></description>
+    <display-name>Welcome</display-name>
+    <servlet-name>Welcome</servlet-name>
+    <servlet-class>modulos.Welcome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Welcome</servlet-name>
+    <url-pattern>/Welcome.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Menu</display-name>
+    <servlet-name>Menu</servlet-name>
+    <servlet-class>modulos.Menu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Menu</servlet-name>
+    <url-pattern>/Menu.do</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Eliminar</display-name>
+    <servlet-name>Eliminar</servlet-name>
+    <servlet-class>modulos.Eliminar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Eliminar</servlet-name>
+    <url-pattern>/Eliminar.do</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>RoadDotCom</description>
+    <display-name>RoadDotCom</display-name>
+    <servlet-name>RoadDotCom</servlet-name>
+    <servlet-class>modulos.RoadDotCom</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RoadDotCom</servlet-name>
+    <url-pattern>/RoadDotCom.do</url-pattern>
+  </servlet-mapping>
+</web-app>
